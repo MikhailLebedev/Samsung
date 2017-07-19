@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -9,11 +8,142 @@
     <title>Tizen Mobile Web Basic Application</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <script src="js/main.js"></script>
-</head>
-
-<body>
+    <!-- 
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-tp.js"></script>
     
-</body>
+   
+    <link href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>
+    -->
+   
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery-m.css" />
+    <script type="text/javascript" src="js/jquery-min.js"></script>
+	<script type="text/javascript" src="js/jquery-m.js"></script>
+	
+    
+</head>
+<body>
+<div data-role="page" id="main" data-theme="a">
+	<div data-role="header">
+		<h1>Tizen app</h1>
+	</div>
+	
+	<div data-role="content">	
+		<a href="#main">Home</a>
+       	<a href="#about">About Tizen</a>
+       	<a href="#drag">Canvas</a>
+       	<a href="#canvas">Canvas2</a>
+       	<article>
+      			<h1>
+        			<img src="images/tizen_32.png" width="32"/> Application Name
+      			</h1>
+    			<p>This is an empty template of Tizen Web Application. Tizen will support multiple device categories:</p>
+    			<ul>
+      				<li>smartphones, tablets and smart TVs
+      				<li>netbooks, in-vehicle infotainment devices
+    			</ul>
+    			<section>
+      				<p>This is a basic section of a document.</p>
+      				<p>The following button displays a time using JavaScript.</p>
+      				<div id="divbutton1">
+       					 <button onclick="startTime();">Clock</button>
+      				</div>
+    			</section>
+  		</article>
+	</div>
+	
+	<div data-role="footer">
+		<p>&copy; 2012 Company Name. All rights reserved.</p>
+	</div>
+</div>
 
+
+
+
+
+
+
+<div data-role="page" id="about" data-add-back-btn="true" data-theme="b">
+	<div data-role="header" id="header">
+      	<h1>About Tizen</h1>
+	</div>
+	
+	<div data-role="content">	
+		<a href="#main">Home</a>
+       	<a href="#about">About Tizen</a>
+       	<a href="#drag">Canvas</a>
+       	<a href="#canvas">Canvas2</a>
+  		<article>
+      		Tizen (/ˈtaɪzɛn/) is an operating system based on the Linux kernel and the GNU C Library implementing the Linux API. 
+      		It works on a wide range of devices, including smartphones, tablets, in-vehicle infotainment (IVI) devices, smart TVs, 
+      		PCs, smart cameras, wearable computing (such as smartwatches), Blu-ray players, printers and smart home appliances[3] 
+      		(such as refrigerators, lighting, washing machines, air conditioners, ovens/microwaves and a robotic vacuum cleaner[4]). 
+      		Its purpose is to offer a consistent user experience across devices. Tizen is a project within the Linux Foundation and 
+      		is governed by a Technical Steering Group (TSG).
+  		</article>	
+	</div>
+	
+	<div data-role="footer">
+		<p>&copy; 2012 Company Name. All rights reserved.</p>
+	</div>
+</div>
+
+
+
+
+<div data-role="page" id="drag" data-add-back-btn="true" data-theme="b">
+	<div data-role="header" id="header">
+      	<h1>Drag</h1>
+	</div>
+	
+	<div data-role="content">	
+		<a href="#main">Home</a>
+       	<a href="#about">About Tizen</a>
+       	<a href="#drag">Canvas</a>
+       	<a href="#canvas">Canvas2</a>
+       	<article>
+  				<canvas id='draw' width='100' height='100' style='border:1px solid; z-index:2;'></canvas>
+      			<div id="drop" style='border:1px solid; position:relative; top: 20px; left:50px; z-index:1; width:100px; height: 100px;'></div>
+  		</article>
+	</div>
+	
+	<div data-role="footer">
+		<p>&copy; 2012 Company Name. All rights reserved.</p>
+	</div>
+</div>
+
+
+
+
+
+
+<div data-role="page" id="canvas" data-add-back-btn="true" data-theme="b">
+	<div data-role="header" id="header">
+      	<h1>Canvas</h1>
+	</div>
+	
+	<div data-role="content">	
+		<a href="#main">Home</a>
+       	<a href="#about">About Tizen</a>
+       	<a href="#drag">Canvas</a>
+       	<a href="#canvas">Canvas2</a>
+  			<article>
+  				<canvas id='draw2' width='160' height='160' style='border:1px solid;'></canvas>
+  				<canvas id='draw3' width='200' height='200' style='border:1px solid;'></canvas>
+  		</article>
+	</div>
+	
+	<div data-role="footer">
+		<p>&copy; 2012 Company Name. All rights reserved.</p>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>

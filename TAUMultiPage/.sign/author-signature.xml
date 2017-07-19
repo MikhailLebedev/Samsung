@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7aA//5UouSK/7SLjjDySgri31JSX0gAopUjqmUgVVAk=</DigestValue>
+<DigestValue>T4yDEf7y47MUBPZZGX4yo+45+988o+5QRFJHELVxe9o=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -16,11 +16,23 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>erSzvfqzDNwEoWl5dCy4XBem67p9KXGS0ftQuBAFQhA=</DigestValue>
+<DigestValue>x1kTSOojUE+HupXodpyvZnCHlktRSi4AQhkLX0jo9Bw=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjquery-ui-tp.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AAhU14J4Gv8bFupUUcHaPQfvrdNauRHMt+S4UVcaJb0=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjquery-ui.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UOoxwEUqhp5BSFFwqzyo2Qp4JLmYYPTHB8l+1yhZij8=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dTDtryeH+XYVqh0yVStTwU+sz33Q2Wm4CrzI0XIFiMk=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>yMTNRsi52e+cXDMNSV4ezuTfL0A566nDW7btQxPWAZo=</DigestValue>
+<DigestValue>OTc29qxafVcu/TAsPxKaANAVAiUwSDVvaI4qTYIfKbg=</DigestValue>
 </Reference>
 <Reference URI="lib%2Fjquery.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -787,11 +799,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-WiCZkVX5p+KRwwZ7XSspEwn10Fw4pvu2JkxJAWiFOkpRTz21vI9OKlv7eBVPmi0JZeKz64sdT/Xz
-Y3qO30xhTy81fjZCKZys7d768Ji0DINdD9XtUYxy9sv0rk3GV0WJCKex56Px9ZVLbczvpOh3YsW5
-jLM3yJ8Sw5hM+gqBnimqZrGwBHEt9njRpLkcoVBjurOMmRPjdZbTvTkpZ/aIOhYKRVVyLv3TUKV6
-huOHJFRk+InJr5OY6QjP1k+uoe79EpZQWHyESFPAhh7Gmsc5UfpKAXI6dHFs0wuAQXk9VMxYSSLX
-3Duu2VjeVTwfIdj729GkMjyA7iLCMkuunxvgRw==
+TIYYT0iPexEvyNjY/3sBGGcTm+2fqx+FdBk4DkM8kARDt5SJ+C0GyQ/bNJi1gw2nKSvebs59aV/i
+XYKJxW2vjet0Km699Nrzdd2ej/96LQ5C0lWld9Gu7ePN8U4Z/SGocNfIYX8DMTs4ZLBPrfk5tLVV
+ijUvj+YHS7mLZkucpKJmDv5MJGlu0YluPE/Dx6Vpwm1lf6PmJAJ+WuaPBwNnj6BCRizjFxUxjPCw
+9ErqlSUzZADFxa2I/kGcS5QJWD+Vj0gM/cxti0HdKMmxzLOgPISRwysDlIGgN/ggYh3r0r4EDfjr
+LR3mFYq8+PqsGIb3scIopYcWXIIQ0ImVwjCgbw==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

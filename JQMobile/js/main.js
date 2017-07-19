@@ -55,6 +55,9 @@ jump(1);
 
 
 
+
+
+
 $(document).ready(function(){
 	   $("#draw").draggable({stack:"#drop"});
 	   $("#drop").droppable({

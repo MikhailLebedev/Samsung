@@ -9,41 +9,34 @@
 </head>
 
 <body>
-	<!-- Start of first page: #one -->
+	
 	<div class="ui-page" id="one">
 		<div class="ui-header">
-			<h1>Multi-page application</h1>
-		</div><!-- /header -->
-
+			<div>Menu</div>
+			<h1>WalkSound</h1>
+		</div>
 		<div class="ui-content">
-			<h2>One</h2>
-			<p>
-				This is a multi-page boilerplate template that you can copy to build
-				your first Tizen Web UI Framework page. This template contains multiple "page"
-				containers inside.
-			</p>
-			<p>
-				You link to internal pages by referring to the ID of the page you
-				want to show. For example, to <a href="#two">link</a> to the page
-				with an ID of "two", my link would have a
-				<code>href="#two"</code>
-				in the code.
-			</p>
-		<ul class="ui-listview">
-			 <li class="ui-group-index">Show internal pages:</li>
+			<ul class="ui-listview">
+			 <li class="ui-group-index">Music:</li>
 				 <li class="ui-li-anchor"><a href="#popup" data-rel="popup" data-position-to="window">Show page "popup"</a></li>
 				 <li class="ui-li-anchor"><a href="#two">Show page "two"</a></li>
 				 <li class="ui-li-anchor"><a href="#three">Show page "three"</a></li>
+				 <li class="ui-li-anchor"><a href="#four">Show page "three"</a></li>
 			</ul>
 			<div id="popup" class="ui-popup center_title_1btn">
 				<div class="ui-popup-header">Popup title</div>
 				<div class="ui-popup-content popup-content-padding">Pop-up dialog box, a child window that blocks user interact to the parent windows</div>
 				<div class="ui-popup-footer">
 					<a class="ui-btn ui-inline" data-rel="back">Button</a>
-		</div>
+				</div>
 			</div>
-		</div><!-- /content -->
-	</div><!-- /page one -->
+		</div>
+		<div class="ui-footer ui-bottom-button">
+			<div class="ui-btn">Auto</div>
+			<div class="ui-btn">Manual</div>
+			<div class="ui-btn"></div>
+		</div>
+	</div>
 
 
 	<!-- Start of second page: #two -->
@@ -68,20 +61,33 @@
 		</div><!-- /header -->
 
 		<div class="ui-content">
-			<video width="100%"controls="controls" src="vid/_TouchCube.mp4">
-   			
-			</video>
-			<div>
-			<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/8TX9zpTqZrc" frameborder="0" allowfullscreen>
-			</iframe>-->
-			</div>
+			<!-- <video width="100%"controls="controls" src="vid/_TouchCube.mp4"></video>-->
+			<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/8TX9zpTqZrc" frameborder="0" allowfullscreen></iframe>-->
+			<div id="divbutton1">
+       					 <button onclick="startTime();">Clock</button>
+      				</div>
+			<span id="hrm"></span><br>
+			<span id="cpu"></span><br>
+			<span id="step"></span><br>
+			<span id="freq"></span>
 			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
 		</div><!-- /content -->
 	</div><!-- /page three -->
 
+
+
+
+	<div class="ui-page" id="four">
+		<div class="ui-content">
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div><!-- /content -->
+	</div><!-- /page three -->
+
+
 	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-	<!-- <script type="text/javascript" src="./js/jQuery.js"></script>-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-tp.js"></script>
 	<script src="./js/main.js"></script>
 </body>
 </html>

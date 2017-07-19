@@ -5,6 +5,10 @@
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
     <name>TAUMultiPage</name>
+    <tizen:privilege name="http://tizen.org/privilege/telephony"/>
+    <tizen:privilege name="http://tizen.org/privilege/system"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/location"/>
     <tizen:profile name="mobile"/>
     <tizen:setting context-menu="disable"/>
 </widget>
